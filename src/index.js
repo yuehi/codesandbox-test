@@ -61,11 +61,52 @@
 // console.log(num2);
 // console.log(arr3);
 
-const arr4 = [10, 20];
-const arr5 = [30, 40];
+// const arr4 = [10, 20];
+// const arr5 = [30, 40];
 
-const arr6 = [...arr4];
-console.log(arr6);
+// const arr6 = [...arr4];
+// console.log(arr6);
 
-const arr7 = [...arr4, ...arr5];
-console.log(arr7);
+// const arr7 = [...arr4, ...arr5];
+// console.log(arr7);
+
+// const nameArr = ["田中", "山田", "ゆうへい"];
+// for (let index = 0; index < nameArr.length; index++) {
+// console.log(`${index + 1}番目は${nameArr[index]}です。`);
+// }
+
+// const nameArr2 = nameArr.map((name)=>{
+//   return name;
+// })
+// console.log(nameArr2);
+
+// nameArr.map((name, index)=> console.log(`${index + 1}番目は${name}です。`));
+
+// const numArr = [1, 2, 3, 4, 5];
+// const newNumArr = numArr.filter((num) =>{
+//   return num % 2 === 1;
+// });
+// console.log(newNumArr);
+
+// const newNameArr = nameArr.map((name) => {
+//   if (name === "ゆうへい") {
+//     return name;
+//   } else {
+//     return `${name}さん`;
+//   }
+// });
+// console.log(newNameArr);
+
+// const val1 = 1 < 0 ? 'trueです'　: 'falseです';
+// console.log(val1);
+
+// const num = "1300";
+// // console.log(num.toLocaleString());
+
+// const formattedNum = typeof num === 'number' ? num.toLocaleString() : '数値を入力してください';
+// console.log(formattedNum);
+
+const checkSum = (num1, num2) => {
+  return num1 + num2 > 100 ? "100を超えています！！" : "許容範囲ないです";
+};
+console.log(checkSum(50, 60));
