@@ -106,7 +106,27 @@
 // const formattedNum = typeof num === 'number' ? num.toLocaleString() : '数値を入力してください';
 // console.log(formattedNum);
 
-const checkSum = (num1, num2) => {
-  return num1 + num2 > 100 ? "100を超えています！！" : "許容範囲ないです";
-};
-console.log(checkSum(50, 60));
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? "100を超えています！！" : "許容範囲ないです";
+// };
+// console.log(checkSum(50, 60));
+
+// const flag1 = true;
+// const flag2 = false;
+
+// if (flag1 || flag2) {
+//   console.log("1か2はtrueになります");
+// }
+// if (flag1 && flag2) {
+//   console.log("1も2はtrueになります");
+// }
+
+// 左側がfalseなら右側を返す
+// const num = 100;
+// const fee = num || "金額未設定です";
+// console.log(fee);
+
+// 左側がtrueなら右側を返す
+// const num2 = 100;
+// const fee2 = num2 && "何か設定されました";
+// console.log(fee2);
